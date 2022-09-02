@@ -12,17 +12,20 @@ body {
 
 }
 /* i gave this a max width and aligned it to center very important!!!!!! */
+.header-class {
+     position: sticky;
+    top: 0;
+    background-color: #fff;
+   max-width: 100%;
+    
+}
 .main-header {
     display: flex;
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 1140px;
     margin: 0 auto;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-   max-width: 100%;
-    
+   
 }
 .logo-tag {
     color: #E86044;
