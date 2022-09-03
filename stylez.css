@@ -142,6 +142,7 @@ body {
     padding: 33px;
     word-spacing: -7px;
 }
+
 .img-cls {
     display: flex;
     /* flex-basis: 414px; */
@@ -261,4 +262,66 @@ p.about {
     overflow: hidden;
     background-color: #F6F3EA;
     padding: 35px;
+}
+
+/* footer page */
+.footer-class {
+    display: flex;
+    justify-content: center;
+    background-color: #F6F3EA;
+    padding: 70px;
+    gap: 2em;
+    margin-left: -155px;
+}
+.footer-info ul li,
+.footer-policy ul li{
+    
+    list-style: none;
+    margin: 20px;
+   font-size:20px;
+}
+.footer-info a,
+.footer-policy a{
+    text-decoration: none;
+    color: #0C2461;
+    
+}
+
+/* subscribe button */
+.subscribe input {
+    font-size: 15px;
+    border-color: #e6f0fa;
+    height: 61px;
+    border-radius: 62px;
+    border: 0;
+    padding-left: 32px;
+    max-width: -21px;
+    width: 26em;
+  
+}
+.subscribe button {
+    padding: 30p;
+    background: #ff6348;
+    background: #ff6348;
+    padding: 0px 30px;
+    height: 49px;
+    border-radius: 30px;
+    border: 0;
+    margin-left: -102px;
+}
+.footer-social {
+    margin-left: -434px;
+    margin-top: 50px;
+    align-self: flex-end;
+}
+.footer-social li a {
+    text-decoration: none;
+
+}
+.footer-social li {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 11px;
+    list-style: none;
+
 }
