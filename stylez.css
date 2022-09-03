@@ -29,6 +29,7 @@ body {
 }
 .logo-tag {
     color: #E86044;
+    cursor: pointer;
     
 }
 .nav-bar {
@@ -41,6 +42,9 @@ body {
 
     /* flex-grow: 3; */
    
+}
+.nav-bar li a:hover {
+    color:#E86044;
 }
 .nav-bar a {
     text-decoration: none;
@@ -59,6 +63,14 @@ body {
 
 .nav-item a {
     text-decoration: none;
+}
+.shop-btn:hover {
+    background: #e6f0fa;
+
+
+}
+.nav-item a:hover {
+    color: #E86044;
 }
 .navbar-nav {
     border: 1px solid #ff6348;
@@ -115,7 +127,9 @@ body {
 /*  */
 .main-section {
     background-color: #7DCABA;
-    padding: 3em;
+    /* padding: 3em; */
+    margin-top: -6%;
+    
     
 }
 .main-content {
@@ -123,31 +137,33 @@ body {
     
     align-items: center;
     justify-content: center;
-    padding: 2em;
+    /* padding: 2em; */
 
 }
 .header-content {
-    flex-basis: 522px;
+    flex-basis: 654px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 9em;
+    margin-left: 14em;
+    margin-top: 48px;
 }
 .header-content h1 {
     line-height: 65px;
     font-size: 54px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: -42px;
     color: #102461;
     padding: 33px;
     word-spacing: -7px;
+    
 }
 
 .img-cls {
     display: flex;
     /* flex-basis: 414px; */
     flex-grow: 1;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 img {
@@ -158,6 +174,7 @@ img {
 .hero-btn {
     padding: 20px;
     margin-left: 11px;
+    margin-top: -58px;
 }
 .hero-btn a {
     display: inline-block;
@@ -171,7 +188,7 @@ img {
 }
 p.about {
     padding: 33px;
-    margin-top:-26px
+    margin: top -10px;
 }
 
 .product-page {
@@ -307,7 +324,10 @@ p.about {
     height: 49px;
     border-radius: 30px;
     border: 0;
-    margin-left: -102px;
+    margin-left: -135px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
 }
 .footer-social {
     margin-left: -434px;
