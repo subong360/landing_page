@@ -11,6 +11,8 @@ body {
 
 
 }
+
+/* ********************** HEADER CLASS ************************************ */
 /* i gave this a max width and aligned it to center very important!!!!!! */
 .header-class {
      position: sticky;
@@ -85,45 +87,6 @@ body {
     color: white;
     text-align: center;
 }
-/* main content session */
-/* .main-section {
-    
-    background-color:#7DCABA;
-    padding: 80px;
-   
-} */
- /* .main-content {
-  
-    /* background-color: #E86044; */
-    /* padding: 100px;
-    display: flex;
-    /* justify-content: center; */
-    /* flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: fit-content;
-    margin-left: 5rem; */ 
-    
-
-/* 
-} */ 
-/* 
-.main-section h1 {
-    color: #102461;
-    font-weight:900;
-    line-height: 62px;
-    font-size: 50px;
-
-} */
-
-/* 
-.hero-btn {
-    border: 1px solid #ff6348;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #ff6348;
-    padding: 25px 25px;
-    width: 10rem;
-/* } */ 
 
 /**********************************  MAIN SECTION PAGE *******************************************/
 .main-section {
@@ -267,7 +230,7 @@ h4.user-header {
      color: #416392;
 }
 
-/************************* FEATURE PAGE  ***********************************/
+/***********************************  FEATURE PAGE  ***********************************/
 .feature-page {
     background-color: #F6F3EA;
     padding-bottom: 100px;
@@ -329,7 +292,7 @@ h4.user-header {
 
 }
 
-/* ********************PRODUCT AREA ************************/
+/* ******************************PRODUCT AREA ****************************************/
 .product-area {
     background-color: #fff;
     padding: 58px;
@@ -372,7 +335,8 @@ h4.user-header {
 .img-1 img {
     max-width:250px ; 
 }
-/*****************FOOTER PAGE *********************/
+
+/***************************** FOOTER PAGE ***********************************/
 .footer-class {
     display: flex;
     justify-content: center;
