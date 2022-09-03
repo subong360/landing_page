@@ -124,7 +124,8 @@ body {
     padding: 25px 25px;
     width: 10rem;
 /* } */ 
-/*  */
+
+/**********************************  MAIN SECTION PAGE *******************************************/
 .main-section {
     background-color: #7DCABA;
     /* padding: 3em; */
@@ -159,18 +160,14 @@ body {
     
 }
 
-.img-cls {
-    display: flex;
-    /* flex-basis: 414px; */
-    flex-grow: 1;
-    justify-content: flex-start;
+p.about {
+    padding: 33px;
+    margin: top -10px;
+    color:#0c2461 ; 
+    font-size: 19px;
+    line-height: 30px;
+}
 
-}
-img {
-    max-width: 60%;
-    /* max-height: 431px; */
-    height: auto;
-}
 .hero-btn {
     padding: 20px;
     margin-left: 11px;
@@ -186,10 +183,24 @@ img {
     font-weight: 600;
     text-decoration: none;
 }
-p.about {
-    padding: 33px;
-    margin: top -10px;
+
+
+
+.img-cls {
+    display: flex;
+    /* flex-basis: 414px; */
+    flex-grow: 1;
+    justify-content: flex-start;
+
 }
+img {
+    max-width: 81%;
+    /* max-height: 431px; */
+    height: auto;
+
+}
+
+/* ******************************** PRODUCT PAGE ***************************************** */
 
 .product-page {
     margin-top: 4em;
@@ -202,6 +213,23 @@ p.about {
     flex-direction: column;
     align-items: center;
 }
+.product-header .product_header_1 {
+    color:#E86044;
+    font-size: 16px; 
+}
+.product-header .product_header_2 {
+    margin-top: -26px; 
+    color: #102461;
+     font-size: 40px;
+}
+
+.product-header .product_content {
+    text-align: center; 
+    margin-top: -6px; 
+    line-height: 28px; 
+    font-size: 18px; 
+    color: #416392;
+}
 .sub-product {
     display: flex;
     justify-content: center;
@@ -209,7 +237,24 @@ p.about {
     margin-bottom: 64px;
     /* align-items: center; */
 }
-
+.diam-design .fa-diamond {
+    font-size:48px;
+    color:#ff6348; 
+    margin-left: 63px;
+}
+.user-design .fa-user {
+    font-size:48px;
+    color:#ff6348; 
+    margin-left: 90px;
+}
+h4.user-header {
+    margin-left: 35px;
+}
+.shield-design .fa-shield {
+    font-size:48px;
+    color:#ff6348;
+     margin-left: 80px;
+}
 .header {
     font-size: 29px;
     line-height: 18px;
@@ -222,9 +267,27 @@ p.about {
      color: #416392;
 }
 
+/************************* FEATURE PAGE  ***********************************/
 .feature-page {
     background-color: #F6F3EA;
     padding-bottom: 100px;
+}
+
+.feature-header h6 {
+    color:#E86044;
+    font-size: 16px;
+     margin-top: 70px;
+}
+.feature-header h1 {
+    font-size: 50px; 
+    line-height:60px;
+    color:#102461; 
+    margin-top: -31px;
+}
+.feature-header p {
+    text-align:center ;
+    font-size:20px; 
+    color:#416392
 }
 
 .feature-page .feature-header {
@@ -233,6 +296,15 @@ p.about {
     align-items: center;
     flex-direction: column;
     
+}
+.feature-content1 {
+    margin-bottom:-133px ;
+}
+.fea-img {
+    text-align: center;
+}
+.feature-content2 {
+    margin-top: -204px;
 }
 .feature-content1,
 .feature-content2
@@ -257,7 +329,7 @@ p.about {
 
 }
 
-/* product Area */
+/* ********************PRODUCT AREA ************************/
 .product-area {
     background-color: #fff;
     padding: 58px;
@@ -267,6 +339,23 @@ p.about {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.product-samples h4 {
+    color:#E86044;
+    font-size: 16px; 
+    margin-bottom: 38px; 
+}
+.product-samples h1 {
+    font-size: 50px; 
+    line-height:60px;
+    color:#102461; 
+    margin-top: -31px;
+}
+.product-samples p {
+    text-align:center ;
+    font-size:20px; 
+    color:#416392; 
+    margin-top:-19px ;
 }
 .product-images {
     display: flex;
@@ -280,8 +369,10 @@ p.about {
     background-color: #F6F3EA;
     padding: 35px;
 }
-
-/* footer page */
+.img-1 img {
+    max-width:250px ; 
+}
+/*****************FOOTER PAGE *********************/
 .footer-class {
     display: flex;
     justify-content: center;
@@ -289,6 +380,13 @@ p.about {
     padding: 70px;
     gap: 2em;
     margin-left: -155px;
+}
+.footer-head p {
+    text-align:center ;
+    font-size:20px; color:#0c2461; 
+    margin-top:1px; 
+    font-size: 18px; 
+    line-height: 29px;
 }
 .footer-info ul li,
 .footer-policy ul li{
@@ -303,8 +401,6 @@ p.about {
     color: #0C2461;
     
 }
-
-/* subscribe button */
 .subscribe input {
     font-size: 15px;
     border-color: #e6f0fa;
@@ -329,6 +425,20 @@ p.about {
     font-size: 16px;
     cursor: pointer;
 }
+
+.footer-social h4 {
+    text-align: left;
+     margin-left: 45px; 
+     color: #0c2461; 
+     font-size: 20px; 
+     line-height: 1px;
+}
+.footer-social ul{
+    display: flex;
+     gap: 8px;
+}
+
+
 .footer-social {
     margin-left: -434px;
     margin-top: 50px;
@@ -344,4 +454,18 @@ p.about {
     padding: 11px;
     list-style: none;
 
+}
+.footer-social ul i {
+    font-size: 20px;
+}
+
+/******************** WEBPAGE CREATOR ***********************/
+div.container {
+    background-color: #fff;
+     padding: 5px;
+}
+.container p {
+    text-align:center ; 
+    font-size: 20px; 
+    color: #0c2461;
 }
